@@ -56,4 +56,21 @@
     document.addEventListener("scroll", collapseNavbar);
   }
 
+  function Email() {
+    var email = document.modulo.email.value;
+    var messaggio = document.modulo.messaggio.value;
+
+    if ((email.indexOf("@") == (-1)) || (email == "") || (email == "undefined")) {
+    alert("Inserire un indirizzo email valido.");
+    document.modulo.email.focus();
+    }
+    else if ((messaggio == "") || (messaggio == "undefined")) {
+    alert("Inserire un messaggio.");
+    document.modulo.messaggio.focus();
+    }
+    else {
+    location.href = "mailto:" + email + "&Body=" + messaggio;
+    }
+    }
+
 })(); // End of use strict
