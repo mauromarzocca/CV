@@ -88,38 +88,13 @@
         </div>
     </section>
 
-    <form action="/cgi-bin/FormMail.pl" method="POST">
-        <input type=hidden name="recipient" value="marzocca.mauro@gmail.com">
-        <input type=hidden name="subject" value="Contatto CV">
-        <table border="0" cellspacing="0" cellpadding="5" align="center">
-         <tr>
-         <td><b> Nome e Cognome:</b></td>
-         <td align="right"><input type=text name="realname"></td>
-         </tr>
-         <tr>
-         <td><b>Email:</b></td>
-         <td align="right"><input type=text name="email"></td>
-         </tr>
-         <tr>
-         <td colspan="2"><b>Messaggio:</b></td>
-         </tr>
-         <tr>
-         <td colspan="2"><textarea name="messaggio" cols="40" rows="5"></textarea></td>
-         </tr>
-         <tr>
-         <td colspan="2" align="center"><input type="Submit" value="Invia"></td>
-         </tr>
-        </table>
-        <input type=hidden name="required" value="email,realname,messaggio">
-        </form>
-
     <section id="contact">
         <div class="container">
             <h2 class="text-uppercase text-center text-secondary mb-0">CONTATTAMI</h2>
             <br>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form action="mailto:marzocca.mauro@gmail.com" method="post" class="text-center" id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <form action="contact_form.php" method="post" class="text-center" id="contactForm" name="sentMessage" novalidate="novalidate">
                         <div class="control-group">
                             <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text" id="name" required="" placeholder="Name">
                                 <label class="form-label">Nome</label><small class="form-text text-danger help-block"></small></div>
