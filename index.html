@@ -88,26 +88,24 @@
         </div>
     </section>
 
-    <h3>Contact us</h3> 
-    <form class="fcf-form-class" method="post" action="contact-form-process.php"> 
-        <label for="Name" class="fcf-label">Your name</label> 
-        <div class="fcf-input-group"> 
-            <input type="text" name="Name" class="fcf-form-control" required> 
-        </div> 
-        <div class="fcf-form-group"> 
-            <label for="Email" class="fcf-label">Your email address</label> 
-            <div class="fcf-input-group"> 
-                <input type="email" name="Email" class="fcf-form-control" required> 
-            </div> 
-            <div class="fcf-form-group"> 
-                <label for="Message" class="fcf-label">Your message</label> 
-                <div class="fcf-input-group"> 
-                    <textarea name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea> 
-                </div> 
-            </div> 
-            <div class="fcf-form-group">
-                 <button type="submit" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button> 
-                </div>
+    <div id="container">
+        <form action="contatti.php" method="post" id="contatti">
+        <p>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" style="width:250px"/>
+        </p>
+        <p>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" style="width:250px"/>
+        </p>
+        <p>
+        <label for="messaggio">Messaggio</label>
+        <textarea name="messaggio" id="messaggio" style="width:250px;height:180px">
+        </textarea>
+        </p>
+        <br />
+        <p><input type="submit" name="submit" id="submit" value="Invia" /></p>
+        </form>
 
 <!--
     <section id="contact">

@@ -61,21 +61,39 @@
     return re.test(email);
   }
   
-  function controlloForm() {
-    var nome = document.forms["formmail"]["nome"].value;
-    var email = document.forms["formmail"]["email"].value;
-    var msg = document.forms["formmail"]["msg"].value;
-  
-    if (nome == "" || email == "" || msg == "") {
-      alert("I campi Nome, Email e Messaggio sono obbligatori!");
-      return false;
+  $(function() {
+    $("#contatti").validate ({
+    rules:{
+    'nome':{
+    required: true,
+    minlength: 3
+    },
+    'email':{
+    required: true,
+    email: true
+    },
+    'messaggio':{
+    required: true,
+    minlength: 10
     }
-    else if (verificaEmail(email) !== true) {
-      alert("L'indirizzo email non sembra corretto!");
-      return false;  
-    }else{
-      return true;
+    },
+    messages:{
+    'nome':{
+    required: "Il campo nome è obbligatorio!",
+    minlength: "Inserisci un nome di almeno 3 lettere!"
+    },
+    'email':{
+    required: "L' email è obbligatoria!",
+    email: "L'Email inserita non è valida!"
+    },
+    'messaggio':{
+    required: "Il campo messaggio è obbligatorio!",
+    minlength: "Insersci un messaggio di almeno 10 caratteri!"
     }
-  }
-
+    },
+    submitHandler : function(form) {
+    form.submit();
+    }
+    });
+    });
 })(); // End of use strict
