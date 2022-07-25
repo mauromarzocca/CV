@@ -1,0 +1,5 @@
+# CV
+
+## Fix
+
+- Visualizzazione CV 
