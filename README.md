@@ -1,11 +1,12 @@
-# MauroCV
+gonative-ios
+============
 
-## Che cos'è MauroCV?
+This is the native IOS code used by https://gonative.io/
 
-MauroCV è un pagina portfolio realizzata da Mauro Marzocca. 
+It allows the creation of apps from existing mobile-optimized websites.
 
-## Qual'è lo scopo di MauroCV?
+How to use
+------------
+Open the workspace named GoNativeIOS.xcworkspace in Xcode. Edit appConfig.json as appropriate.
 
-Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti in passato, oltre a mostrare quello che è stato il mio percorso di studi.
-
-## 
+Licensing information available at https://gonative.io/

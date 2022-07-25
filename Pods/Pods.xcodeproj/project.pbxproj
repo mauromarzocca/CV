@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059BE7834AF7C3798FDE9CB7FC44A547 /* GNEventEmitter.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FDA7FBC2EDF786FDFA657886EAA17E /* GNEventEmitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1019AFE86FE5D91F6AC838E3D8F563DE /* GNBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA56489B1BDBEE8E3E3DB899C4F911E /* GNBridge.m */; };
+		1713EB2C25A4F9956878F5E49B5304C4 /* FontAwesome6_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81B2A73AFA82202FE7592CD8167CFAFA /* FontAwesome6_Solid.ttf */; };
+		1FB82DE883CC02FA1B9BC25CC7A2069C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		25D8D6EE2DE1C466D801A181AE67F2F4 /* GNUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D02B65F6537A01115DE0C56CBBA734 /* GNUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29F6FDF811EA90B834CF9231AB7D914E /* UIImage+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBC22A2BDABFE3EC7B64ABA6A79534 /* UIImage+Font.swift */; };
+		3134AFA189C0366C7A565E04C5040A06 /* NSAttributedString+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB83176428FFB912AC41291274E6EB4 /* NSAttributedString+Font.swift */; };
+		35B32DB25C5432BF7C2264F4E81E146E /* Pods-GonativeIO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A94B0BF944EC81FEC0568F411BA3F7A0 /* Pods-GonativeIO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403A5C864E8361391B936FA90824751B /* GoNativeCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ACB87652D9873BF2B93127B8362FA3 /* GoNativeCore-dummy.m */; };
+		442C17ACC09F9AFECC87A8C33CF77256 /* GNJavascriptRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = E64F415C0452458532785F95AFA7B9CE /* GNJavascriptRunner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF8D5C702A5BF898D2ED2A30B886D78 /* GonativeIcons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B12B3200DD2EF79F824AF0F6476C3B /* GonativeIcons-dummy.m */; };
+		690DF8A1438308383B4122E2D81A0F21 /* GoNativeCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F84B3C32AC1EF09FFA4EEC925DCC424 /* GoNativeCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A9D5E477BBA3BFF82A4B93C17CB62F /* FontAwesome6_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5106A71FCFA3B7671A345D8369657711 /* FontAwesome6_Light.ttf */; };
+		78933508130443F147907E1E2966EBA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		83DB231B54C22C5ACDA8903ED25CC9ED /* GNBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 3731085DEAEDB75901E0740A7094E830 /* GNBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85386A3565005018CD089F057CA9E9DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		86B6D7086EDA63DB10AA0530FC2A14E9 /* FontAwesome6_Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DFAB2C5BDCF8F8C6C1DDB02E02D6C6AF /* FontAwesome6_Thin.ttf */; };
+		96D48BB3E54EA6C80238DDF43B6C5F7B /* Pods-GonativeIO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9703DEA96D1FE65E51DAE07BE26CE161 /* Pods-GonativeIO-dummy.m */; };
+		A27CB8998722FB30B77F6A58A23E2C49 /* GonativeIcons-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E68D96C49A0B3FF0399556A01D8338 /* GonativeIcons-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A438823D3FA41EE2D5BD7196AB3C7044 /* Pods-GoNativeIOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC19C773F56983BC2E24563206BEDB66 /* Pods-GoNativeIOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D84DEF8E149F1BD6A6BEDFD1578E0C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57366745512B6C300FDD8979D938448 /* Utilities.swift */; };
+		C053933869A4B373180F5493A533A9FC /* FontFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F0BFE4D07DA9505DFA71897C83F3D /* FontFactory.swift */; };
+		C0AD5AA87487A162BFA8E9EA1C2CAF4C /* MaterialDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 027F403F5C25609BEFEB54040A418EB4 /* MaterialDesign.json */; };
+		C30916C5055286273244846D015C80D8 /* Pods-GoNativeIOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC04EC03CDF30C1ED4736A7F5255C87 /* Pods-GoNativeIOSTests-dummy.m */; };
+		C532A7F079374D8019DBE411B5AA30C8 /* GNDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E42AFAC6626D48253B33B6EBA2A90E84 /* GNDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C798316DD066FD610C22B7FF9CCC5C01 /* GNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E82F9F56F14533A6D2471C55618925 /* GNEventEmitter.m */; };
+		C9FC7882C9E4E1A43D1E5D4CC6ED2F96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CA4D1106807C2F2BC01FCEF046DD4182 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723FA0A032CEE11BE455FF96496527D3 /* Font.swift */; };
+		CC5EA175EECBAF5AFB9D9958CB28D939 /* MaterialDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066718C1705A5579073FAD3F2D808405 /* MaterialDesign.ttf */; };
+		D2566572D3B40529A2D7B246FB4E2EE9 /* FontLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E0972C157235215EFD66606E66F368 /* FontLoader.swift */; };
+		D9CF2E6858857F7DD2E60EF69710D34F /* FontAwesome6_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61E99F409594B8E4D53EC685BE868720 /* FontAwesome6_Brands.ttf */; };
+		DAFEB8125F79C457CAB50C8B2F887E7B /* GNBridgeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 609A54BA9C88B5375429F583AAF95788 /* GNBridgeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E19394FDB888E73C989FD21F02883234 /* FontAwesome6_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E378EA5CD5D8B6DD10059976363AF53 /* FontAwesome6_Regular.ttf */; };
+		EA355205976ED54C84D1B7BB306BA5A3 /* NSURL+GNUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2C071D1DB0B591ECC16811D923381A /* NSURL+GNUtilities.m */; };
+		F34BDC0705740D253D69CC3BC07D85A3 /* GNUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = B39187B5CECCDC3326B309A589E002C4 /* GNUtilities.m */; };
+		FDC78EC806C62B78AB174D916024F83C /* FontAwesome.json in Resources */ = {isa = PBXBuildFile; fileRef = 1C4BEBDD99FD6DCA5855624D21A3B5B9 /* FontAwesome.json */; };
+		FEBD2C9B87E631626F10E564D713DDA8 /* NSURL+GNUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F09FD8394F30BF117175366D3396D6 /* NSURL+GNUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25010A7ED7E31E158041962BC73CB778 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0412DEF5B0065DDF6F89C12727DA5240;
+			remoteInfo = GoNativeCore;
+		};
+		36DEACE515775061F93E40C51B1E64DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADFF6BE6E60E5BBE7C22D45766A6827;
+			remoteInfo = GonativeIcons;
+		};
+		AD595C4F6D54647DFAC7438C614E217E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C88F609A90B5129E1B68AB7FE0BA526;
+			remoteInfo = "Pods-GonativeIO";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027F403F5C25609BEFEB54040A418EB4 /* MaterialDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = MaterialDesign.json; path = GonativeIcons/Assets/MaterialDesign.json; sourceTree = "<group>"; };
+		066718C1705A5579073FAD3F2D808405 /* MaterialDesign.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = MaterialDesign.ttf; path = GonativeIcons/Assets/MaterialDesign.ttf; sourceTree = "<group>"; };
+		0678C51821452903EC6BF50A06073F95 /* GonativeIcons */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GonativeIcons; path = GonativeIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0877D46E24FA06C7DE8CDCA18D27C816 /* Pods-GoNativeIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoNativeIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0AB69615C91F829F6E7CAF6B3BD7AE98 /* Pods-GoNativeIOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoNativeIOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B745A89A16E7A88CBEEA7C28625A2F8 /* Pods-GonativeIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonativeIO.release.xcconfig"; sourceTree = "<group>"; };
+		1C4BEBDD99FD6DCA5855624D21A3B5B9 /* FontAwesome.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; name = FontAwesome.json; path = GonativeIcons/Assets/FontAwesome.json; sourceTree = "<group>"; };
+		200E0F189B8559A40B57A944D95BBEAF /* Pods-GoNativeIOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoNativeIOSTests-Info.plist"; sourceTree = "<group>"; };
+		2DA56489B1BDBEE8E3E3DB899C4F911E /* GNBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNBridge.m; path = GoNativeCore/Classes/GNBridge.m; sourceTree = "<group>"; };
+		2DB83176428FFB912AC41291274E6EB4 /* NSAttributedString+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSAttributedString+Font.swift"; path = "GonativeIcons/Classes/NSAttributedString+Font.swift"; sourceTree = "<group>"; };
+		2EE71A25B14EEDB0769FB1B932F7D2F5 /* GonativeIcons.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GonativeIcons.modulemap; sourceTree = "<group>"; };
+		2F84B3C32AC1EF09FFA4EEC925DCC424 /* GoNativeCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoNativeCore-umbrella.h"; sourceTree = "<group>"; };
+		3731085DEAEDB75901E0740A7094E830 /* GNBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNBridge.h; path = GoNativeCore/Classes/GNBridge.h; sourceTree = "<group>"; };
+		380F0BFE4D07DA9505DFA71897C83F3D /* FontFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontFactory.swift; path = GonativeIcons/Classes/FontFactory.swift; sourceTree = "<group>"; };
+		3AC682485EC9904A421E2713E60B3C33 /* Pods-GonativeIO */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GonativeIO"; path = Pods_GonativeIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41B12B3200DD2EF79F824AF0F6476C3B /* GonativeIcons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GonativeIcons-dummy.m"; sourceTree = "<group>"; };
+		44164F0DC1F38B840BBBDDABDF728982 /* Pods-GonativeIO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonativeIO-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C26BCAC299BDD5316C3FE6CD785384A /* GoNativeCore */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoNativeCore; path = GoNativeCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5106A71FCFA3B7671A345D8369657711 /* FontAwesome6_Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome6_Light.ttf; path = GonativeIcons/Assets/FontAwesome6_Light.ttf; sourceTree = "<group>"; };
+		55E68D96C49A0B3FF0399556A01D8338 /* GonativeIcons-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonativeIcons-umbrella.h"; sourceTree = "<group>"; };
+		56E82F9F56F14533A6D2471C55618925 /* GNEventEmitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNEventEmitter.m; path = GoNativeCore/Classes/GNEventEmitter.m; sourceTree = "<group>"; };
+		58E11843C707CE39DECA3F6591E0303B /* GoNativeCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoNativeCore-prefix.pch"; sourceTree = "<group>"; };
+		609A54BA9C88B5375429F583AAF95788 /* GNBridgeModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNBridgeModule.h; path = GoNativeCore/Classes/GNBridgeModule.h; sourceTree = "<group>"; };
+		61E99F409594B8E4D53EC685BE868720 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome6_Brands.ttf; path = GonativeIcons/Assets/FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		63ACB87652D9873BF2B93127B8362FA3 /* GoNativeCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoNativeCore-dummy.m"; sourceTree = "<group>"; };
+		6E378EA5CD5D8B6DD10059976363AF53 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome6_Regular.ttf; path = GonativeIcons/Assets/FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		723FA0A032CEE11BE455FF96496527D3 /* Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Font.swift; path = GonativeIcons/Classes/Font.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74D3E6BEB6760DCD89D169A38D5119EF /* Pods-GonativeIO-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GonativeIO-frameworks.sh"; sourceTree = "<group>"; };
+		7A2C071D1DB0B591ECC16811D923381A /* NSURL+GNUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+GNUtilities.m"; path = "GoNativeCore/Classes/NSURL+GNUtilities.m"; sourceTree = "<group>"; };
+		7BFE6808E2031C1A4DCF02699C1A2305 /* GoNativeCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.debug.xcconfig; sourceTree = "<group>"; };
+		7C08317A5D6CDFD56EF2749F9FC372A1 /* GoNativeCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoNativeCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		7E51A45972629F55878BFD71971AD76F /* GoNativeCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GoNativeCore-Info.plist"; sourceTree = "<group>"; };
+		80E0972C157235215EFD66606E66F368 /* FontLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontLoader.swift; path = GonativeIcons/Classes/FontLoader.swift; sourceTree = "<group>"; };
+		81B2A73AFA82202FE7592CD8167CFAFA /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome6_Solid.ttf; path = GonativeIcons/Assets/FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		83F09FD8394F30BF117175366D3396D6 /* NSURL+GNUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+GNUtilities.h"; path = "GoNativeCore/Classes/NSURL+GNUtilities.h"; sourceTree = "<group>"; };
+		84BBC22A2BDABFE3EC7B64ABA6A79534 /* UIImage+Font.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Font.swift"; path = "GonativeIcons/Classes/UIImage+Font.swift"; sourceTree = "<group>"; };
+		8C6FCA0D062C4FF745C9B4E7A8FA4949 /* Pods-GoNativeIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoNativeIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9703DEA96D1FE65E51DAE07BE26CE161 /* Pods-GonativeIO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GonativeIO-dummy.m"; sourceTree = "<group>"; };
+		97D02B65F6537A01115DE0C56CBBA734 /* GNUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNUtilities.h; path = GoNativeCore/Classes/GNUtilities.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A759EA1E606691AEBE61F9229F37B19F /* Pods-GonativeIO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GonativeIO-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A820CBBC9606063B3135B88C8D812201 /* GoNativeCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoNativeCore.release.xcconfig; sourceTree = "<group>"; };
+		A94B0BF944EC81FEC0568F411BA3F7A0 /* Pods-GonativeIO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GonativeIO-umbrella.h"; sourceTree = "<group>"; };
+		AAA3D3C205EDC402C33328B9D0305796 /* GonativeIcons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GonativeIcons.release.xcconfig; sourceTree = "<group>"; };
+		B0D3BB1B27BFA88446C34024EC78C989 /* Pods-GoNativeIOSTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GoNativeIOSTests"; path = Pods_GoNativeIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B17C49B81FBA406EDFB85E956AD281E6 /* GonativeIcons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GonativeIcons.debug.xcconfig; sourceTree = "<group>"; };
+		B24CBBF8BEBB7ECDA74A3290E2C0A76D /* GoNativeCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GoNativeCore.modulemap; sourceTree = "<group>"; };
+		B39187B5CECCDC3326B309A589E002C4 /* GNUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GNUtilities.m; path = GoNativeCore/Classes/GNUtilities.m; sourceTree = "<group>"; };
+		B7C7F3474A78F86F1C2F3E25BB722B68 /* Pods-GonativeIO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GonativeIO.modulemap"; sourceTree = "<group>"; };
+		BDB59C19569326387797B2D0E7791222 /* Pods-GonativeIO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GonativeIO-Info.plist"; sourceTree = "<group>"; };
+		C0861EF9CB31C8C12E73620723D78CF8 /* GoNative.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoNative.xcframework; path = GoNativeCore/Frameworks/GoNative.xcframework; sourceTree = "<group>"; };
+		C163F5918893BCB8836A30C11C4F7A5C /* GonativeIcons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GonativeIcons-prefix.pch"; sourceTree = "<group>"; };
+		C3F51CF8F24E5F7B6F98CB631DD78319 /* Pods-GoNativeIOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoNativeIOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C57366745512B6C300FDD8979D938448 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = GonativeIcons/Classes/Utilities.swift; sourceTree = "<group>"; };
+		CF3298743338C93FDACDA30A005F8D6D /* Pods-GoNativeIOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GoNativeIOSTests.modulemap"; sourceTree = "<group>"; };
+		DFAB2C5BDCF8F8C6C1DDB02E02D6C6AF /* FontAwesome6_Thin.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome6_Thin.ttf; path = GonativeIcons/Assets/FontAwesome6_Thin.ttf; sourceTree = "<group>"; };
+		E42AFAC6626D48253B33B6EBA2A90E84 /* GNDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNDefines.h; path = GoNativeCore/Classes/GNDefines.h; sourceTree = "<group>"; };
+		E64F415C0452458532785F95AFA7B9CE /* GNJavascriptRunner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNJavascriptRunner.h; path = GoNativeCore/Classes/GNJavascriptRunner.h; sourceTree = "<group>"; };
+		E989314A7B3B0CAAF2A88C96B0C02223 /* GonativeIcons-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GonativeIcons-Info.plist"; sourceTree = "<group>"; };
+		F2CEFC9B3A1EB551EC8FCF322AC00E37 /* Pods-GonativeIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GonativeIO.debug.xcconfig"; sourceTree = "<group>"; };
+		F8FDA7FBC2EDF786FDFA657886EAA17E /* GNEventEmitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GNEventEmitter.h; path = GoNativeCore/Classes/GNEventEmitter.h; sourceTree = "<group>"; };
+		FC19C773F56983BC2E24563206BEDB66 /* Pods-GoNativeIOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoNativeIOSTests-umbrella.h"; sourceTree = "<group>"; };
+		FEC04EC03CDF30C1ED4736A7F5255C87 /* Pods-GoNativeIOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoNativeIOSTests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75D6727553825C58FE4BC320CC79C368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FC7882C9E4E1A43D1E5D4CC6ED2F96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93C67E6667CB09DF7A083522DC13AA40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85386A3565005018CD089F057CA9E9DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B378462C7F8FD5FA03E4F81743D19895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB82DE883CC02FA1B9BC25CC7A2069C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED258C837D9A3276B4D3BE861F4D9F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78933508130443F147907E1E2966EBA8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038BDF4E755A4381DF1222390A37D72A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B24CBBF8BEBB7ECDA74A3290E2C0A76D /* GoNativeCore.modulemap */,
+				63ACB87652D9873BF2B93127B8362FA3 /* GoNativeCore-dummy.m */,
+				7E51A45972629F55878BFD71971AD76F /* GoNativeCore-Info.plist */,
+				58E11843C707CE39DECA3F6591E0303B /* GoNativeCore-prefix.pch */,
+				2F84B3C32AC1EF09FFA4EEC925DCC424 /* GoNativeCore-umbrella.h */,
+				7C08317A5D6CDFD56EF2749F9FC372A1 /* GoNativeCore-xcframeworks.sh */,
+				7BFE6808E2031C1A4DCF02699C1A2305 /* GoNativeCore.debug.xcconfig */,
+				A820CBBC9606063B3135B88C8D812201 /* GoNativeCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoNativeCore";
+			sourceTree = "<group>";
+		};
+		23DB0AEB4F850539F3AC2899FBB61673 /* GonativeIcons */ = {
+			isa = PBXGroup;
+			children = (
+				723FA0A032CEE11BE455FF96496527D3 /* Font.swift */,
+				380F0BFE4D07DA9505DFA71897C83F3D /* FontFactory.swift */,
+				80E0972C157235215EFD66606E66F368 /* FontLoader.swift */,
+				2DB83176428FFB912AC41291274E6EB4 /* NSAttributedString+Font.swift */,
+				84BBC22A2BDABFE3EC7B64ABA6A79534 /* UIImage+Font.swift */,
+				C57366745512B6C300FDD8979D938448 /* Utilities.swift */,
+				AF5219A747046E36FF74535A901A7C61 /* Resources */,
+				C9357AD8328EDB9A5EACE43F6F722110 /* Support Files */,
+			);
+			path = GonativeIcons;
+			sourceTree = "<group>";
+		};
+		246322E774874A6C4991911D9C87531B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C26BCAC299BDD5316C3FE6CD785384A /* GoNativeCore */,
+				0678C51821452903EC6BF50A06073F95 /* GonativeIcons */,
+				3AC682485EC9904A421E2713E60B3C33 /* Pods-GonativeIO */,
+				B0D3BB1B27BFA88446C34024EC78C989 /* Pods-GoNativeIOSTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		322BEF6B040743EEE622B11F1B234612 /* Pods-GoNativeIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3298743338C93FDACDA30A005F8D6D /* Pods-GoNativeIOSTests.modulemap */,
+				0AB69615C91F829F6E7CAF6B3BD7AE98 /* Pods-GoNativeIOSTests-acknowledgements.markdown */,
+				C3F51CF8F24E5F7B6F98CB631DD78319 /* Pods-GoNativeIOSTests-acknowledgements.plist */,
+				FEC04EC03CDF30C1ED4736A7F5255C87 /* Pods-GoNativeIOSTests-dummy.m */,
+				200E0F189B8559A40B57A944D95BBEAF /* Pods-GoNativeIOSTests-Info.plist */,
+				FC19C773F56983BC2E24563206BEDB66 /* Pods-GoNativeIOSTests-umbrella.h */,
+				8C6FCA0D062C4FF745C9B4E7A8FA4949 /* Pods-GoNativeIOSTests.debug.xcconfig */,
+				0877D46E24FA06C7DE8CDCA18D27C816 /* Pods-GoNativeIOSTests.release.xcconfig */,
+			);
+			name = "Pods-GoNativeIOSTests";
+			path = "Target Support Files/Pods-GoNativeIOSTests";
+			sourceTree = "<group>";
+		};
+		3FE90D3CF1A2B47A802D831B71B18524 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E570EF07E17FD8FC5AFDF6DEB304DA10 /* Pods-GonativeIO */,
+				322BEF6B040743EEE622B11F1B234612 /* Pods-GoNativeIOSTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6919337176CCF74E25ED8364A3C2E1A0 /* GoNativeCore */ = {
+			isa = PBXGroup;
+			children = (
+				3731085DEAEDB75901E0740A7094E830 /* GNBridge.h */,
+				2DA56489B1BDBEE8E3E3DB899C4F911E /* GNBridge.m */,
+				609A54BA9C88B5375429F583AAF95788 /* GNBridgeModule.h */,
+				E42AFAC6626D48253B33B6EBA2A90E84 /* GNDefines.h */,
+				F8FDA7FBC2EDF786FDFA657886EAA17E /* GNEventEmitter.h */,
+				56E82F9F56F14533A6D2471C55618925 /* GNEventEmitter.m */,
+				E64F415C0452458532785F95AFA7B9CE /* GNJavascriptRunner.h */,
+				97D02B65F6537A01115DE0C56CBBA734 /* GNUtilities.h */,
+				B39187B5CECCDC3326B309A589E002C4 /* GNUtilities.m */,
+				83F09FD8394F30BF117175366D3396D6 /* NSURL+GNUtilities.h */,
+				7A2C071D1DB0B591ECC16811D923381A /* NSURL+GNUtilities.m */,
+				749FF594DC2BDE17092305620B39801C /* Frameworks */,
+				038BDF4E755A4381DF1222390A37D72A /* Support Files */,
+			);
+			path = GoNativeCore;
+			sourceTree = "<group>";
+		};
+		72E49098C329C98985819A3CBA19CA28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6919337176CCF74E25ED8364A3C2E1A0 /* GoNativeCore */,
+				23DB0AEB4F850539F3AC2899FBB61673 /* GonativeIcons */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		749FF594DC2BDE17092305620B39801C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0861EF9CB31C8C12E73620723D78CF8 /* GoNative.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5219A747046E36FF74535A901A7C61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C4BEBDD99FD6DCA5855624D21A3B5B9 /* FontAwesome.json */,
+				61E99F409594B8E4D53EC685BE868720 /* FontAwesome6_Brands.ttf */,
+				5106A71FCFA3B7671A345D8369657711 /* FontAwesome6_Light.ttf */,
+				6E378EA5CD5D8B6DD10059976363AF53 /* FontAwesome6_Regular.ttf */,
+				81B2A73AFA82202FE7592CD8167CFAFA /* FontAwesome6_Solid.ttf */,
+				DFAB2C5BDCF8F8C6C1DDB02E02D6C6AF /* FontAwesome6_Thin.ttf */,
+				027F403F5C25609BEFEB54040A418EB4 /* MaterialDesign.json */,
+				066718C1705A5579073FAD3F2D808405 /* MaterialDesign.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C9357AD8328EDB9A5EACE43F6F722110 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE71A25B14EEDB0769FB1B932F7D2F5 /* GonativeIcons.modulemap */,
+				41B12B3200DD2EF79F824AF0F6476C3B /* GonativeIcons-dummy.m */,
+				E989314A7B3B0CAAF2A88C96B0C02223 /* GonativeIcons-Info.plist */,
+				C163F5918893BCB8836A30C11C4F7A5C /* GonativeIcons-prefix.pch */,
+				55E68D96C49A0B3FF0399556A01D8338 /* GonativeIcons-umbrella.h */,
+				B17C49B81FBA406EDFB85E956AD281E6 /* GonativeIcons.debug.xcconfig */,
+				AAA3D3C205EDC402C33328B9D0305796 /* GonativeIcons.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GonativeIcons";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				72E49098C329C98985819A3CBA19CA28 /* Pods */,
+				246322E774874A6C4991911D9C87531B /* Products */,
+				3FE90D3CF1A2B47A802D831B71B18524 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E570EF07E17FD8FC5AFDF6DEB304DA10 /* Pods-GonativeIO */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7F3474A78F86F1C2F3E25BB722B68 /* Pods-GonativeIO.modulemap */,
+				A759EA1E606691AEBE61F9229F37B19F /* Pods-GonativeIO-acknowledgements.markdown */,
+				44164F0DC1F38B840BBBDDABDF728982 /* Pods-GonativeIO-acknowledgements.plist */,
+				9703DEA96D1FE65E51DAE07BE26CE161 /* Pods-GonativeIO-dummy.m */,
+				74D3E6BEB6760DCD89D169A38D5119EF /* Pods-GonativeIO-frameworks.sh */,
+				BDB59C19569326387797B2D0E7791222 /* Pods-GonativeIO-Info.plist */,
+				A94B0BF944EC81FEC0568F411BA3F7A0 /* Pods-GonativeIO-umbrella.h */,
+				F2CEFC9B3A1EB551EC8FCF322AC00E37 /* Pods-GonativeIO.debug.xcconfig */,
+				1B745A89A16E7A88CBEEA7C28625A2F8 /* Pods-GonativeIO.release.xcconfig */,
+			);
+			name = "Pods-GonativeIO";
+			path = "Target Support Files/Pods-GonativeIO";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44DF5C574C455AA56AF077C0E84CA8BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DB231B54C22C5ACDA8903ED25CC9ED /* GNBridge.h in Headers */,
+				DAFEB8125F79C457CAB50C8B2F887E7B /* GNBridgeModule.h in Headers */,
+				C532A7F079374D8019DBE411B5AA30C8 /* GNDefines.h in Headers */,
+				059BE7834AF7C3798FDE9CB7FC44A547 /* GNEventEmitter.h in Headers */,
+				442C17ACC09F9AFECC87A8C33CF77256 /* GNJavascriptRunner.h in Headers */,
+				25D8D6EE2DE1C466D801A181AE67F2F4 /* GNUtilities.h in Headers */,
+				690DF8A1438308383B4122E2D81A0F21 /* GoNativeCore-umbrella.h in Headers */,
+				FEBD2C9B87E631626F10E564D713DDA8 /* NSURL+GNUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		869C5AC744853B82DE68F39D656D4A2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A438823D3FA41EE2D5BD7196AB3C7044 /* Pods-GoNativeIOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E90F02FE4C5D88C409CD48FA6621970 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CB8998722FB30B77F6A58A23E2C49 /* GonativeIcons-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6F953B2D1E90A684E367DD5C0B133FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35B32DB25C5432BF7C2264F4E81E146E /* Pods-GonativeIO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0412DEF5B0065DDF6F89C12727DA5240 /* GoNativeCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DF6323E7A4E91DC306080933557DE7 /* Build configuration list for PBXNativeTarget "GoNativeCore" */;
+			buildPhases = (
+				44DF5C574C455AA56AF077C0E84CA8BF /* Headers */,
+				B8D38F1CD84C3CF16D36A52691A2BEFE /* [CP] Copy XCFrameworks */,
+				988E64A9BDD65195AB1AA8EB2D5E0AB9 /* Sources */,
+				B378462C7F8FD5FA03E4F81743D19895 /* Frameworks */,
+				DA19FFF278199869AC2031518D7EA67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoNativeCore;
+			productName = GoNativeCore;
+			productReference = 4C26BCAC299BDD5316C3FE6CD785384A /* GoNativeCore */;
+			productType = "com.apple.product-type.framework";
+		};
+		6C88F609A90B5129E1B68AB7FE0BA526 /* Pods-GonativeIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E54B24A89DF45BBF68EEDAB7BFAB0D /* Build configuration list for PBXNativeTarget "Pods-GonativeIO" */;
+			buildPhases = (
+				D6F953B2D1E90A684E367DD5C0B133FC /* Headers */,
+				07EC3747405B3277616377114E2FF105 /* Sources */,
+				93C67E6667CB09DF7A083522DC13AA40 /* Frameworks */,
+				4BF55E983F9313E5C31FC70B4C94DD3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBFB562EFC0F47728ED91313DF229BC /* PBXTargetDependency */,
+				F2703636B7D7E5CAAB1123BE7EAC1BF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-GonativeIO";
+			productName = Pods_GonativeIO;
+			productReference = 3AC682485EC9904A421E2713E60B3C33 /* Pods-GonativeIO */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8F12CE29D03C3E365271DA359BE4E7F /* Pods-GoNativeIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13822B7F22956DDC3B4DDB8C59FC67B0 /* Build configuration list for PBXNativeTarget "Pods-GoNativeIOSTests" */;
+			buildPhases = (
+				869C5AC744853B82DE68F39D656D4A2A /* Headers */,
+				5C5B1BB3B69FAF30303BA86769DC0FA1 /* Sources */,
+				75D6727553825C58FE4BC320CC79C368 /* Frameworks */,
+				CFB5218450116C498CD9D2C049D238C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B730AF93681359177A8C8382A95221D /* PBXTargetDependency */,
+			);
+			name = "Pods-GoNativeIOSTests";
+			productName = Pods_GoNativeIOSTests;
+			productReference = B0D3BB1B27BFA88446C34024EC78C989 /* Pods-GoNativeIOSTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EADFF6BE6E60E5BBE7C22D45766A6827 /* GonativeIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B02B39DAE8F4EB6D9F8A770A7829F8AD /* Build configuration list for PBXNativeTarget "GonativeIcons" */;
+			buildPhases = (
+				8E90F02FE4C5D88C409CD48FA6621970 /* Headers */,
+				B4DE813678124BE668A14B1B04ACDB75 /* Sources */,
+				ED258C837D9A3276B4D3BE861F4D9F5B /* Frameworks */,
+				0144CAA833B61C5037365581A3F7E620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GonativeIcons;
+			productName = GonativeIcons;
+			productReference = 0678C51821452903EC6BF50A06073F95 /* GonativeIcons */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1400;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 246322E774874A6C4991911D9C87531B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0412DEF5B0065DDF6F89C12727DA5240 /* GoNativeCore */,
+				EADFF6BE6E60E5BBE7C22D45766A6827 /* GonativeIcons */,
+				6C88F609A90B5129E1B68AB7FE0BA526 /* Pods-GonativeIO */,
+				B8F12CE29D03C3E365271DA359BE4E7F /* Pods-GoNativeIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0144CAA833B61C5037365581A3F7E620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC78EC806C62B78AB174D916024F83C /* FontAwesome.json in Resources */,
+				D9CF2E6858857F7DD2E60EF69710D34F /* FontAwesome6_Brands.ttf in Resources */,
+				71A9D5E477BBA3BFF82A4B93C17CB62F /* FontAwesome6_Light.ttf in Resources */,
+				E19394FDB888E73C989FD21F02883234 /* FontAwesome6_Regular.ttf in Resources */,
+				1713EB2C25A4F9956878F5E49B5304C4 /* FontAwesome6_Solid.ttf in Resources */,
+				86B6D7086EDA63DB10AA0530FC2A14E9 /* FontAwesome6_Thin.ttf in Resources */,
+				C0AD5AA87487A162BFA8E9EA1C2CAF4C /* MaterialDesign.json in Resources */,
+				CC5EA175EECBAF5AFB9D9958CB28D939 /* MaterialDesign.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF55E983F9313E5C31FC70B4C94DD3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB5218450116C498CD9D2C049D238C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA19FFF278199869AC2031518D7EA67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8D38F1CD84C3CF16D36A52691A2BEFE /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/GoNativeCore/GoNativeCore-xcframeworks.sh",
+				"${PODS_ROOT}/GoNativeCore/GoNativeCore/Frameworks/GoNative.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoNativeCore/GoNative.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoNativeCore/GoNativeCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07EC3747405B3277616377114E2FF105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D48BB3E54EA6C80238DDF43B6C5F7B /* Pods-GonativeIO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5B1BB3B69FAF30303BA86769DC0FA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30916C5055286273244846D015C80D8 /* Pods-GoNativeIOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988E64A9BDD65195AB1AA8EB2D5E0AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1019AFE86FE5D91F6AC838E3D8F563DE /* GNBridge.m in Sources */,
+				C798316DD066FD610C22B7FF9CCC5C01 /* GNEventEmitter.m in Sources */,
+				F34BDC0705740D253D69CC3BC07D85A3 /* GNUtilities.m in Sources */,
+				403A5C864E8361391B936FA90824751B /* GoNativeCore-dummy.m in Sources */,
+				EA355205976ED54C84D1B7BB306BA5A3 /* NSURL+GNUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DE813678124BE668A14B1B04ACDB75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA4D1106807C2F2BC01FCEF046DD4182 /* Font.swift in Sources */,
+				C053933869A4B373180F5493A533A9FC /* FontFactory.swift in Sources */,
+				D2566572D3B40529A2D7B246FB4E2EE9 /* FontLoader.swift in Sources */,
+				5FF8D5C702A5BF898D2ED2A30B886D78 /* GonativeIcons-dummy.m in Sources */,
+				3134AFA189C0366C7A565E04C5040A06 /* NSAttributedString+Font.swift in Sources */,
+				29F6FDF811EA90B834CF9231AB7D914E /* UIImage+Font.swift in Sources */,
+				A6D84DEF8E149F1BD6A6BEDFD1578E0C /* Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBFB562EFC0F47728ED91313DF229BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoNativeCore;
+			target = 0412DEF5B0065DDF6F89C12727DA5240 /* GoNativeCore */;
+			targetProxy = 25010A7ED7E31E158041962BC73CB778 /* PBXContainerItemProxy */;
+		};
+		4B730AF93681359177A8C8382A95221D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GonativeIO";
+			target = 6C88F609A90B5129E1B68AB7FE0BA526 /* Pods-GonativeIO */;
+			targetProxy = AD595C4F6D54647DFAC7438C614E217E /* PBXContainerItemProxy */;
+		};
+		F2703636B7D7E5CAAB1123BE7EAC1BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GonativeIcons;
+			target = EADFF6BE6E60E5BBE7C22D45766A6827 /* GonativeIcons */;
+			targetProxy = 36DEACE515775061F93E40C51B1E64DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02790023CC43411AD0969FFC18213E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CEFC9B3A1EB551EC8FCF322AC00E37 /* Pods-GonativeIO.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GonativeIO/Pods-GonativeIO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GonativeIO/Pods-GonativeIO.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A87EF6ECFEA4431C31979695951C0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B745A89A16E7A88CBEEA7C28625A2F8 /* Pods-GonativeIO.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GonativeIO/Pods-GonativeIO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GonativeIO/Pods-GonativeIO.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57159275292A5C6744C06D68E83AAE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAA3D3C205EDC402C33328B9D0305796 /* GonativeIcons.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GonativeIcons/GonativeIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GonativeIcons/GonativeIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GonativeIcons/GonativeIcons.modulemap";
+				PRODUCT_MODULE_NAME = GonativeIcons;
+				PRODUCT_NAME = GonativeIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90C19824941D5383E64264F49237970F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A820CBBC9606063B3135B88C8D812201 /* GoNativeCore.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoNativeCore/GoNativeCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/GoNativeCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoNativeCore/GoNativeCore.modulemap";
+				PRODUCT_MODULE_NAME = GoNativeCore;
+				PRODUCT_NAME = GoNativeCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AEBBF5C8C402091256CEFC4C95A0029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0877D46E24FA06C7DE8CDCA18D27C816 /* Pods-GoNativeIOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DBA82F5F301BE13C61885AC23A716655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BFE6808E2031C1A4DCF02699C1A2305 /* GoNativeCore.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GoNativeCore/GoNativeCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoNativeCore/GoNativeCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoNativeCore/GoNativeCore.modulemap";
+				PRODUCT_MODULE_NAME = GoNativeCore;
+				PRODUCT_NAME = GoNativeCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9973794176598911CD3F1D4311A376A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17C49B81FBA406EDFB85E956AD281E6 /* GonativeIcons.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GonativeIcons/GonativeIcons-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GonativeIcons/GonativeIcons-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GonativeIcons/GonativeIcons.modulemap";
+				PRODUCT_MODULE_NAME = GonativeIcons;
+				PRODUCT_NAME = GonativeIcons;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F29B8EA3CDDBFB285F54F386CAD2060F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C6FCA0D062C4FF745C9B4E7A8FA4949 /* Pods-GoNativeIOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoNativeIOSTests/Pods-GoNativeIOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13822B7F22956DDC3B4DDB8C59FC67B0 /* Build configuration list for PBXNativeTarget "Pods-GoNativeIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29B8EA3CDDBFB285F54F386CAD2060F /* Debug */,
+				9AEBBF5C8C402091256CEFC4C95A0029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E54B24A89DF45BBF68EEDAB7BFAB0D /* Build configuration list for PBXNativeTarget "Pods-GonativeIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02790023CC43411AD0969FFC18213E9D /* Debug */,
+				4A87EF6ECFEA4431C31979695951C0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B02B39DAE8F4EB6D9F8A770A7829F8AD /* Build configuration list for PBXNativeTarget "GonativeIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9973794176598911CD3F1D4311A376A /* Debug */,
+				57159275292A5C6744C06D68E83AAE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DF6323E7A4E91DC306080933557DE7 /* Build configuration list for PBXNativeTarget "GoNativeCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBA82F5F301BE13C61885AC23A716655 /* Debug */,
+				90C19824941D5383E64264F49237970F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
