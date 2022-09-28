@@ -10,7 +10,6 @@ Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti i
 
 ## Fix 
 
-- Progetto Card - icona (ridimensionamento e rimozione sfondo)
 - Aggiunta link github su tutti i progetto
 ### iOS
 
