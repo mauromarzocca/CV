@@ -10,8 +10,8 @@ Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti i
 
 ## Fix 
 
-- Progetto Card (icona e descrizione)
-- Aggiunta link github
+- Progetto Card - icona (ridimensionamento e rimozione sfondo)
+- Aggiunta link github su tutti i progetto
 ### iOS
 
 - Visualizzazione CV Doc
