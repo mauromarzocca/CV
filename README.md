@@ -11,6 +11,7 @@ Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti i
 ## Fix 
 
 - Bottone GitHub all'interno del progetto : inserimento icona, incolonnamento bottone e cambio colore 
+  
 ### iOS
 
 - Visualizzazione CV Doc
