@@ -12,7 +12,6 @@ Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti i
 
 - Bottone GitHub all'interno del progetto : incolonnamento bottone e cambio colore
 - Aggiungere sezione Layout, all'interno dei progetti svolti con alcuni esempi ed i link a github -> eventualmente fare una cartella generale e poi i link alla sotto cartella nel nome del layout e quella in generale della repository. (Sezione Aggiunta)
-- Aggiungere esempio di immagine nella repository dei layout
   
 ### iOS
 
