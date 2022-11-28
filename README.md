@@ -10,6 +10,7 @@ Lo scopo di MauroCV è quello di illustrare le competenze ed i progetti svolti i
 
 ## Fix 
 
+- Controllo success ed error
   
 ### iOS
 
