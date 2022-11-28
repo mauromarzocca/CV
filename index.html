@@ -169,7 +169,8 @@
 
     <!--
 
-    Non funzionante su Github pages, occorre testare su un sito e tramite un modulo PHP
+    Non funzionante su Github pages, occorre testare su un sito e tramite un modulo PHP-->
+
 
     <section id="contact">
         <div class="container">
@@ -177,28 +178,53 @@
             <br>
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <form action="contact_form.php" method="post" class="text-center" id="contactForm" name="sentMessage" novalidate="novalidate">
-                        <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="text" id="name" required="" placeholder="Name">
-                                <label class="form-label">Nome</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="mb-0 form-floating controls pb-2"><input class="form-control" type="email" id="email" required="" placeholder="Email Address">
-                                <label class="form-label">Email</label><small class="form-text text-danger help-block"></small></div>
-                        </div>
-                        <div class="control-group">
-                            <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" id="message" required="" placeholder="Message" style="height: 150px;">
-                            </textarea><label class="form-label">Messaggio</label><small class="form-text text-danger help-block"></small></div>
-                        </div><button class="btn btn-success text-center btn-xl" id="sendMessageButton" type="submit" style="margin: 0px;align-items: center;margin-left: 0;">Invio</button>
-                        <button class="btn btn-danger text-end btn-xl" id="sendMessageButton-1" type="reset" style="margin: 0px;align-items: center;margin-left: 0;">Reset</button>
-                        <div id="success"></div>
-                        <div></div>
+                    <form action="/cgi-bin/FormMail.pl" method="POST">
+                        <input type=hidden name="recipient" value="marzocca.mauro@gmail.com">
+                        <input type=hidden name="subject" value="Feedback">
+                        <table border="0" cellspacing="0" cellpadding="5" align="center">
+                            <tr>
+                                <td><b> Nome :</b></td>
+                                <td align="right"><input type=text name="realname" style="border-color: black;"
+                                        required></td>
+                            </tr>
+                            <tr>
+                                <td><b>Email :</b></td>
+                                <td align="right"><input type=text name="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,}" style="border-color: black;" required>
+                                    <!--script>
+                                        function ctrlForm() {
+                                            var em = document.forms["nomeForm"]["email"].value;
+                                            var atpos = em.indexOf("@");
+                                            var dotpos = em.lastIndexOf(".");
+                                            if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= em.length) {
+                                                alert("Indirizzo email non valido");
+                                                return false;
+                                            }
+                                        }
+                                    </script-->
+                                </td>
+                            </tr>
+                            <tr>
+                                <br>
+                                <td colspan="2"><b>Messaggio :</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><textarea name="messaggio" cols="40" rows="5"
+                                        style="border-color: black;" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center"><input style="background-color: green; color: white"
+                                        type="Submit" value="Invia">
+                                    <input type="reset" value="Cancella" style="background-color: red; color: white">
+                                </td>
+                            </tr>
+                        </table>
+                        <input type=hidden name="required" value="email,realname,messaggio">
+                        <input type=hidden name=redirect value="http://www.google.com">
                     </form>
                 </div>
             </div>
         </div>
     </section>
--->
 
     <footer class="text-center footer">
         <div class="container">
